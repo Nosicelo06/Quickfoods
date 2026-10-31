@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{% static 'myapp/style.css' %}">
+</head>
+<body>
+    <header class="logo">
+        <h1>FASTFOOD &amp; SNACKS</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="#home">Home</a>
+            <a href="mailto:melisassangorh@gmail.com">EmailUs</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>FASTFOOD &amp; SNACKS</h1>
+        <h2>FRESH, HOT, FASTFOOD</h2>
+        <p> Come and enjoy our hot fastfoods!! At the lowest prices.
+            We have Burgers, crispy chips, Craps, Gwinyas, snacks and many more!!
+        </p>
+
+        <a href="#menu" class="btn">View Our Menu</a>
+    </section>
+
+    <main id="menu">
+        <h2 class="section-title">Our Menu</h2>
+
+        <div class="menu-grid">
+            <div class="card">
+                <h3>Craps</h3>
+                <p>Lettuce, tomato, onion, sauce, chicken strips, cheese and frieds</p>
+                <span class="price">R35.00</span>
+            </div>
+            <div class="card">
+                <h3>Burgers</h3>
+                <p>mayo sauce, Beef burger/chicken, Lettuce, Tomato and Cheese</p>
+                <p>Choose form Mega, Triple burger, double burger and small</p>
+                <span class="price">R30 to R45</span>
+            </div>
+            <div class="card">
+                <h3>chips</h3>
+                <p>Choose from Large, Medium and Small</p>
+            </div>
+            <div class="card">
+                <h3>Drinks</h3>
+                <p>Choose from Coca-cola, Sprite, Stone, Apple juice and Cappy</p>
+                <span class="price">R10 to R30 </span>
+    
+            </div>
+            <div class="card">
+               <h3>Snacks</h3> 
+               <p>Gwinyas, Pop corns, Ice cream and sweets</p>
+               <span class="price">R8 to R12</span>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section id="about" class="info">
+        <h2>About Us</h2>
+        <p>We serve fresh food made daily, fast and at a fair price.
+            You can place your order online and come to collect it!!
+        </p>
+    </section>
+
+    <footer id="contact">
+        <p>Phone: 0123 456 789 | Address: 36 Flora street, Danville</p>
+        <p>&copy; 2026 FastFoods &amp; Snacks</p>
+    </footer>
+</body>
+</html>
